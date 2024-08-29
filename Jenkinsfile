@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'ls'
-                sh 'npm install'
+                sh 'ls
                 sh 'echo N | ng analytics off'
                 sh 'ng build'
                 sh 'ls'
